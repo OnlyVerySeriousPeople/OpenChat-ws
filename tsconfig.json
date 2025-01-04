@@ -1,10 +1,18 @@
 {
   "compilerOptions": {
-    "rootDir": ".",
-    "outDir": "build"
+    "target": "es6",
+    "module": "NodeNext",    
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "lib",
+    "outDir": "build",
+    "resolveJsonModule": true,
+    "noImplicitAny": true
   },
   "include": [
     "lib/**/*.ts",
     "test/**/*.ts"
-  ]
+  ],
 }
